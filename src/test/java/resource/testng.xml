@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="FozzySalesForecastSuite" thread-count="4" parallel="tests">
+
+    <test name="Suite1">
+        <groups>
+            <run>
+                <include name="filterPanel"/>
+                <include name="infoPanel"/>
+                <include name="workDesktop"/>
+                <include name="loginPage"/>
+                <!--&lt;!&ndash;<include name="compare"/>&ndash;&gt;-->
+
+
+            </run>
+        </groups>
+
+        <classes>
+            <class name="FozzySalesForecastTest" />
+        </classes>
+    </test>
+    <!--<test name = "Test1" parallel="true">-->
+
+        <!--<classes>-->
+            <!--<class name = "FozzySalesForecastTest">-->
+                <!--<methods><include name = "A_openPopUpWindowTest_1" /> </methods>-->
+            <!--</class>-->
+        <!--</classes>-->
+
+    <!--</test>-->
+
+    <!--<test name = "Test2" parallel="true">-->
+
+        <!--<classes>-->
+            <!--<class name = "FozzySalesForecastTest">-->
+                <!--<methods><include name = "B_playListTest_2" /> </methods>-->
+            <!--</class>-->
+        <!--</classes>-->
+
+    <!--</test>-->
+
+    <!--<test name = "Test3" parallel="true">-->
+
+        <!--<classes>-->
+            <!--<class name = "FozzySalesForecastTest">-->
+                <!--<methods><include name = "C_mainMenuElemArtTest_3" /> </methods>-->
+            <!--</class>-->
+        <!--</classes>-->
+
+    <!--</test>-->
+
+    <!--<test name = "Test4" parallel="true">-->
+
+        <!--<classes>-->
+            <!--<class name = "FozzySalesForecastTest">-->
+                <!--<methods><include name = "D_elementProductNameTest_4" /> </methods>-->
+            <!--</class>-->
+        <!--</classes>-->
+
+    <!--</test>-->
+
+    <!--<test name = "Test5" parallel="true">-->
+
+        <!--<classes>-->
+            <!--<class name = "FozzySalesForecastTest">-->
+                <!--<methods><include name = "E_checkSelectButtonConditionTest_5" /> </methods>-->
+            <!--</class>-->
+        <!--</classes>-->
+
+    <!--</test>-->
+
+    <!--<test name = "Test6" parallel="true">-->
+
+        <!--<classes>-->
+            <!--<class name = "FozzySalesForecastTest">-->
+                <!--<methods><include name = "F_inputSingleArticleTest_6" /> </methods>-->
+            <!--</class>-->
+        <!--</classes>-->
+
+    <!--</test>-->
+
+    <!--<test name = "Test7" parallel="true">-->
+
+        <!--<classes>-->
+            <!--<class name = "FozzySalesForecastTest">-->
+                <!--<methods><include name = "G_multiInputArticlesTest_7" /> </methods>-->
+            <!--</class>-->
+        <!--</classes>-->
+
+    <!--</test>-->
+
+    <!--<test name = "Test8" parallel="true">-->
+
+        <!--<classes>-->
+            <!--<class name = "FozzySalesForecastTest">-->
+                <!--<methods><include name = "H_clearButtonTest_8" /> </methods>-->
+            <!--</class>-->
+        <!--</classes>-->
+
+    <!--</test>-->
+
+    <!--<test name = "Test9" parallel="true">-->
+
+        <!--<classes>-->
+            <!--<class name = "FozzySalesForecastTest">-->
+                <!--<methods><include name = "O_selectionButtonTest_9" /> </methods>-->
+            <!--</class>-->
+        <!--</classes>-->
+
+    <!--</test>-->
+
+    <!--<test name = "Test10" parallel="true">-->
+
+        <!--<classes>-->
+            <!--<class name = "FozzySalesForecastTest">-->
+                <!--<methods><include name = "I_inputFieldProviderTest_10" /> </methods>-->
+            <!--</class>-->
+        <!--</classes>-->
+
+    <!--</test>-->
+
+
+
+</suite>

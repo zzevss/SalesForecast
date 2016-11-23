@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [AutoMotoTestCount]">
+  <test name="Suite1(failed)">
+    <groups>
+      <run>
+        <include name="filterPanel"/>
+        <include name="infoPanel"/>
+        <include name="workDesktop"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="FozzySalesForecastTest">
+        <methods>
+          <include name="T_savingAnalyticReportDesktopTest_38"/>
+          <include name="A_openPopUpWindowTest_1"/>
+        </methods>
+      </class> <!-- FozzySalesForecastTest -->
+    </classes>
+  </test> <!-- Suite1(failed) -->
+</suite> <!-- Failed suite [AutoMotoTestCount] -->
